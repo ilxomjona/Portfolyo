@@ -281,6 +281,80 @@ main {
 
 /* RECENT PROJECT END */
 
+/* <!-- Latest Posts START --> */
+.latest-posts {
+	padding-top: 5.3rem;
+	padding-bottom: 9.1rem;
+	color: var(--nav-color);
+}
+
+.latest-posts__info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 8.2rem;
+}
+
+.latest_posts__title {
+	font-weight: 700;
+	font-size: 4.8rem;
+	line-height: 1.2;
+}
+
+.latest_posts__title span {
+	color: var(--hover-color);
+}
+
+.latest-posts__text {
+	display: flex;
+	align-items: center;
+}
+
+.latest-posts__img {
+	margin-left: 1.2rem;
+}
+
+.latest-posts__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.latest-posts__item {
+	border-radius: 2rem;
+	background-color: rgba(62, 78, 105, 0.4);
+	text-align: center;
+	padding-bottom: 4rem;
+}
+
+.latest-posts__item:not(:last-child) {
+	margin-right: 2rem;
+}
+
+.latest-posts__item-img {
+	border-radius: 20px 20px 0px 0px;
+	margin-bottom: 2.2rem;
+	width: 369px;
+	height: 292px;
+	object-fit: cover;
+}
+
+.latest-posts__item-title {
+	font-weight: 700;
+	font-size: 2.4rem;
+	line-height: 1.2;
+	margin-bottom: 1.2rem;
+}
+
+.latest-posts__item-paragrph {
+	color: gray;
+	font-weight: 700;
+	font-size: 2.4rem;
+	line-height: 1.2;
+	margin-bottom: 1.2rem;
+}
+
+/* <!-- Latest Posts end --> */
+
 @media screen and (max-width: 979px) {
 	.site-logo {
 		width: 180px;
