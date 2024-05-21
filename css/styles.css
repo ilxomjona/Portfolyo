@@ -4,6 +4,7 @@
 	--nav-color: #f8fafc;
 	--blog-bg: rgb(30, 41, 59);
 	--hover-color: #22d3ee;
+	--footer-bg: #0f172a;
 }
 
 @font-face {
@@ -440,11 +441,61 @@ main {
 }
 
 .form__btn:hover {
-	background-color: var(--nav-color);
+	background-color: var(--text-color);
 	color: var(--hover-color);
 }
 
 .form__btn:active {
+	opacity: 0.6;
+}
+
+/* SITE FOOTER */
+
+.site-footer {
+	background-color: var(--footer-bg);
+	padding-top: 1.7rem;
+	padding-bottom: 4.6rem;
+	border-top: 1px solid var(--text-color);
+}
+
+.site-footer__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.site-footer__text {
+	max-width: 635px;
+	width: 100%;
+	margin-right: 1rem;
+	color: var(--nav-color);
+	font-weight: 500;
+	font-size: 2rem;
+	line-height: var(--text-line-height);
+}
+
+.site-footer__list {
+	display: flex;
+	align-items: center;
+}
+
+.site-footer__item:not(:last-child) {
+	margin-right: 1rem;
+}
+
+.site-footer__link svg {
+	color: transparent;
+	transition: all 0.4s ease;
+	width: 44px;
+	height: 44px;
+	object-fit: cover;
+}
+
+.site-footer__link svg:hover {
+	opacity: 0.8;
+}
+
+.site-footer__link svg:active {
 	opacity: 0.6;
 }
 
@@ -557,6 +608,24 @@ main {
 	.sitenav__link {
 		font-size: 1.6rem;
 	}
+
+	.site-footer {
+		padding-top: 1.7rem;
+		padding-bottom: 4rem;
+	}
+
+	.site-footer__text {
+		font-size: 1.8rem;
+	}
+
+	.site-footer__item:not(:last-child) {
+		margin-right: 0.8rem;
+	}
+
+	.site-footer__link svg {
+		width: 40px;
+		height: 40px;
+	}
 }
 
 @media screen and (max-width: 700px) {
@@ -649,6 +718,27 @@ main {
 	.form__btn {
 		padding: 1rem 2rem;
 		font-size: 1.6rem;
+	}
+
+	.site-footer {
+		padding-bottom: 3.6rem;
+	}
+
+	.site-footer__container {
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.site-footer__text {
+		margin-right: 0rem;
+		font-size: 1.4rem;
+		text-align: center;
+		margin-bottom: 0.8rem;
+	}
+
+	.site-footer__link svg {
+		width: 15px;
+		height: 15px;
 	}
 }
 
@@ -801,6 +891,24 @@ main {
 	.form__btn {
 		padding: 0.9rem 1.2rem;
 		font-size: 1rem;
+	}
+
+	.site-footer {
+		padding-top: 1rem;
+		padding-bottom: 1.6rem;
+	}
+
+	.site-footer__text {
+		font-size: 0.8rem;
+	}
+
+	.site-footer__item:not(:last-child) {
+		margin-right: 0.5rem;
+	}
+
+	.site-footer__link svg {
+		width: 15px;
+		height: 15px;
 	}
 }
 
