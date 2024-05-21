@@ -296,13 +296,13 @@ main {
 	margin-bottom: 8.2rem;
 }
 
-.latest_posts__title {
+.latest-posts__title {
 	font-weight: 700;
 	font-size: 4.8rem;
 	line-height: 1.2;
 }
 
-.latest_posts__title span {
+.latest-posts__title span {
 	color: var(--hover-color);
 }
 
@@ -319,6 +319,7 @@ main {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	margin-right: -2rem;
 }
 
 .latest-posts__item {
@@ -328,11 +329,11 @@ main {
 	background-color: rgba(62, 78, 105, 0.4);
 	text-align: center;
 	padding-bottom: 4rem;
+	margin-right: 2rem;
 	margin-bottom: 2rem;
 }
 
 .latest-posts__item:not(:last-child) {
-	margin-right: 2rem;
 }
 
 .latest-posts__item-img {
@@ -356,6 +357,18 @@ main {
 	font-size: 2.4rem;
 	line-height: 1.2;
 	margin-bottom: 1.2rem;
+}
+
+.latest-posts__block-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.latest-posts__block-title {
+	margin-bottom: 3.8rem;
 }
 
 /* <!-- Latest Posts end --> */
@@ -553,6 +566,10 @@ main {
 	.latest-posts__item-paragrph {
 		font-size: 2.2rem;
 	}
+
+	.latest-posts__block-title {
+		margin-bottom: 3rem;
+	}
 }
 
 @media screen and (max-width: 830px) {
@@ -566,6 +583,10 @@ main {
 
 	.latest-posts__item:not(:last-child) {
 		margin-right: 0rem;
+	}
+
+	.latest-posts__block-title {
+		margin-bottom: 2.4rem;
 	}
 
 	.newsletters {
@@ -862,6 +883,10 @@ main {
 	}
 	.latest-posts__item-text {
 		font-size: 1.2rem;
+	}
+
+	.latest-posts__block-title {
+		margin-bottom: 1.7rem;
 	}
 
 	.newsletters {
