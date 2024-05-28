@@ -597,6 +597,70 @@ main {
 	margin-bottom: 2.1rem;
 }
 
+.twitter {
+	margin-top: 8.4rem;
+	color: var(--nav-color);
+	padding-top: 8.4rem;
+	padding-bottom: 5.6rem;
+}
+
+.twitter__title {
+	text-align: center;
+	margin-bottom: 5rem;
+	font-weight: 500;
+	font-size: 4.8rem;
+	line-height: var(--text-line-height);
+}
+
+.twitter__title span {
+	color: var(--hover-color);
+}
+
+.twitter__text {
+	max-width: 855px;
+	width: 100%;
+	font-size: 2.4rem;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2.7rem;
+}
+
+.twitter__list {
+	margin-left: 20rem;
+}
+
+.twitter__item:not(:last-child) {
+	margin-bottom: 0.5rem;
+}
+
+.twitter__item {
+	font-style: 2.4rem;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+}
+
+.twitter__circl {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: var(--text-color);
+	border-radius: 50%;
+	margin-right: 0.5rem;
+}
+
+.twitter__item-text {
+	color: var(--hover-color);
+	font-weight: 700;
+}
+
+.twitter__form {
+	max-width: 861px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 @media screen and (max-width: 979px) {
 	.site-logo {
 		width: 180px;
@@ -711,6 +775,30 @@ main {
 
 	.newletters__info-text:not(:last-child) {
 		margin-bottom: 2rem;
+	}
+
+	.twitter {
+		margin-top: 8.4rem;
+		padding-top: 8rem;
+		padding-bottom: 5rem;
+	}
+
+	.twitter__title {
+		margin-bottom: 4rem;
+		font-size: 4rem;
+	}
+
+	.twitter__text {
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.twitter__list {
+		margin-left: 15rem;
+	}
+
+	.twitter__item {
+		font-size: 2rem;
 	}
 }
 
@@ -841,6 +929,30 @@ main {
 
 	.newletters__info-text:not(:last-child) {
 		margin-bottom: 1.6rem;
+	}
+
+	.twitter {
+		margin-top: 8rem;
+		padding-top: 5.6rem;
+		padding-bottom: 4rem;
+	}
+
+	.twitter__title {
+		margin-bottom: 3rem;
+		font-size: 3rem;
+	}
+
+	.twitter__text {
+		font-size: 1.6rem;
+		margin-bottom: 1.6rem;
+	}
+
+	.twitter__list {
+		margin-left: 10rem;
+	}
+
+	.twitter__item {
+		font-size: 1.6rem;
 	}
 }
 
@@ -1191,6 +1303,35 @@ main {
 
 	.newletters__info-text:not(:last-child) {
 		margin-bottom: 1rem;
+	}
+
+	.twitter {
+		margin-top: 4.4rem;
+		padding-top: 4.4rem;
+		padding-bottom: 2.7rem;
+	}
+
+	.twitter__title {
+		margin-bottom: 3rem;
+		font-size: 2rem;
+	}
+
+	.twitter__text {
+		font-size: 1rem;
+		margin-bottom: 2.7rem;
+	}
+
+	.twitter__list {
+		margin-left: 5rem;
+	}
+
+	.twitter__item {
+		font-size: 1rem;
+	}
+
+	.twitter__circl {
+		width: 0.6rem;
+		height: 0.6rem;
 	}
 }
 
