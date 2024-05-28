@@ -1005,6 +1005,8 @@ main {
 	}
 
 	.recent-projects__img {
+		width: 150px;
+		height: 150px;
 		margin-right: 0;
 		margin-bottom: 1.6rem;
 	}
@@ -1123,6 +1125,11 @@ main {
 	}
 
 	.hero__img img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.recent-projects__img {
 		width: 100px;
 		height: 100px;
 	}
